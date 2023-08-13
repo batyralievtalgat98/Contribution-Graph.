@@ -1,0 +1,23 @@
+.colors-block{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    font-size: 8px;
+    position: relative;
+    align-items: center;
+    gap: 3px;
+}
+
+.color-block{
+    width: 15px;
+    height: 15px;
+}
+
+.color-popup{
+position: absolute;
+top:-30px;
+border-radius: 3px;
+background: #000;
+color:white;
+padding: 9px;
+}
